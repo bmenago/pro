@@ -425,25 +425,28 @@ body {
 }
 
 .package-card {
-    background: linear-gradient(135deg, #1a0d2e 0%, #0f0f0f 100%);
+    background: linear-gradient(135deg, #2d1b4e 0%, #1a0d2e 100%);
     border-radius: 20px;
     padding: 40px 30px;
     text-align: center;
     position: relative;
-    border: 2px solid transparent;
+    border: 2px solid rgba(156, 77, 204, 0.3);
     transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(156, 77, 204, 0.1);
 }
 
 .package-card:hover {
     border-color: #9c4dcc;
     transform: translateY(-5px);
-    box-shadow: 0 20px 60px rgba(156, 77, 204, 0.2);
+    box-shadow: 0 25px 70px rgba(156, 77, 204, 0.3);
+    background: linear-gradient(135deg, #3d2b5e 0%, #2a1d3e 100%);
 }
 
 .package-card.popular {
     border-color: #9c4dcc;
-    background: linear-gradient(135deg, #2d1b4e 0%, #1a0d2e 100%);
+    background: linear-gradient(135deg, #3d2b5e 0%, #2a1d3e 100%);
     transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(156, 77, 204, 0.2);
 }
 
 .popular-badge, .best-value-badge {
